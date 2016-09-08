@@ -1,0 +1,22 @@
+{
+  "name": "week19",
+  "version": "1.0.0",
+  "description": "",
+  "main": "example.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bov188/week19.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bov188/week19/issues"
+  },
+  "homepage": "https://github.com/bov188/week19#readme",
+  "dependencies": {
+    "react": "^15.3.1"
+  }
+}
