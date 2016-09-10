@@ -7,7 +7,9 @@ var GrandChild = React.createClass({
 	render: function(){
 
 		return(
-
+      <div>
+        <h1>Grandchild</h1>
+      </div>
 		)
 	}
 });
