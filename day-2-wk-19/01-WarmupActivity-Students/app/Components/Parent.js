@@ -12,7 +12,10 @@ var Parent = React.createClass({
 	render: function(){
 
 		return(
-
+      <div>
+        <h1> Parent </h1>
+        <Child/>
+      </div>
 		)
 	}
 });
