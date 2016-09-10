@@ -15,7 +15,7 @@ var Randomizer = React.createClass({
 				<div className="panel-body text-center">
 
 					{/*Randomizer should multiply the number of clicks by a random number between 1 and 10*/}
-					<h1>{this.props.clicks * Math.floor(Math.random() * 10) + 1  }</h1>
+					<h1>{this.props.clicks * Math.floor(Math.random() * 10)}</h1>
 
 				</div>
 			</div>
