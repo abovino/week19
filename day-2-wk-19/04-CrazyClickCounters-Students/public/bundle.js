@@ -19896,7 +19896,7 @@
 					React.createElement(
 						"h1",
 						null,
-						this.state.number + this.props.click
+						this.state.number + this.props.clicks
 					)
 				)
 			);
@@ -19940,7 +19940,7 @@
 					React.createElement(
 						"h1",
 						null,
-						this.props.clicks * this.props.clicks
+						this.props.clicks * 5
 					)
 				)
 			);
@@ -19984,7 +19984,7 @@
 					React.createElement(
 						"h1",
 						null,
-						this.props.clicks * Math.floor(Math.random() * 10) + 1
+						this.props.clicks * Math.floor(Math.random() * 10)
 					)
 				)
 			);
@@ -20041,7 +20041,7 @@
 				React.createElement(
 					"div",
 					{ className: "panel-body" },
-					React.createElement("img", { src: "http://r.ddmcdn.com/s_f/o_1/cx_633/cy_0/cw_1725/ch_1725/w_720/APL/uploads/2014/11/too-cute-doggone-it-video-playlist.jpg", width: "100%" })
+					React.createElement("img", { src: this.state.src[this.state.selection], width: "100%" })
 				)
 			);
 		}
