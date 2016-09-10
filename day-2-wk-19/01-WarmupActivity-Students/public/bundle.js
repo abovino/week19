@@ -19767,61 +19767,19 @@
 	var Parent = React.createClass({
 		displayName: 'Parent',
 
+
 		// Here we render the function
 		render: function render() {
 
 			return React.createElement(
 				'div',
-				{ className: 'container' },
+				null,
 				React.createElement(
-					'div',
-					{ className: 'row' },
-					React.createElement(
-						'div',
-						{ className: 'jumbotron' },
-						React.createElement(
-							'h2',
-							null,
-							'Warmup!'
-						),
-						React.createElement(
-							'p',
-							null,
-							React.createElement(
-								'em',
-								null,
-								'Components and Sub-components'
-							)
-						)
-					),
-					React.createElement(
-						'div',
-						{ className: 'col-md-12' },
-						React.createElement(
-							'div',
-							{ className: 'panel panel-default' },
-							React.createElement(
-								'div',
-								{ className: 'panel-heading' },
-								React.createElement(
-									'h3',
-									{ className: 'panel-title text-center' },
-									'Parent'
-								)
-							),
-							React.createElement(
-								'div',
-								{ className: 'panel-body text-center' },
-								React.createElement(
-									'h2',
-									null,
-									'Hey I\'m a Parent!'
-								),
-								React.createElement(Child, null)
-							)
-						)
-					)
-				)
+					'h1',
+					null,
+					' Parent '
+				),
+				React.createElement(Child, null)
 			);
 		}
 	});
@@ -19850,26 +19808,13 @@
 
 			return React.createElement(
 				'div',
-				{ className: 'panel panel-default' },
+				null,
 				React.createElement(
-					'div',
-					{ className: 'panel-heading' },
-					React.createElement(
-						'h3',
-						{ className: 'panel-title' },
-						'Child'
-					)
+					'h1',
+					null,
+					' Child '
 				),
-				React.createElement(
-					'div',
-					{ className: 'panel-body text-center' },
-					React.createElement(
-						'h3',
-						null,
-						'HEY I\'m the Child!'
-					),
-					React.createElement(GrandChild, null)
-				)
+				React.createElement(GrandChild, null)
 			);
 		}
 	});
@@ -19881,38 +19826,25 @@
 /* 161 */
 /***/ function(module, exports, __webpack_require__) {
 
-	"use strict";
+	'use strict';
 
 	// Include React 
 	var React = __webpack_require__(1);
 
 	// Create the GrandChild Component
 	var GrandChild = React.createClass({
-		displayName: "GrandChild",
+		displayName: 'GrandChild',
 
 
 		render: function render() {
 
 			return React.createElement(
-				"div",
-				{ className: "panel panel-default" },
+				'div',
+				null,
 				React.createElement(
-					"div",
-					{ className: "panel-heading" },
-					React.createElement(
-						"h3",
-						{ className: "panel-title" },
-						"GrandChild"
-					)
-				),
-				React.createElement(
-					"div",
-					{ className: "panel-body text-center" },
-					React.createElement(
-						"h4",
-						null,
-						"Hey I'm a Grandchild!"
-					)
+					'h1',
+					null,
+					'Grandchild'
 				)
 			);
 		}
