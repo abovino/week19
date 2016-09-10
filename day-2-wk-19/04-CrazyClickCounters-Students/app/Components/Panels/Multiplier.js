@@ -12,10 +12,11 @@ var Multiplier = React.createClass({
 				<div className="panel-heading">
 					<h3 className="panel-title">Multiplier</h3>
 				</div>
+
 				<div className="panel-body text-center">
 
 					{/*Multiplier takes the number of clicks and multiplies it by itself*/}
-					<h1>{this.props.clicks * this.props.clicks}</h1>
+					<h1>{this.props.clicks * 5}</h1>
 
 				</div>
 			</div>
