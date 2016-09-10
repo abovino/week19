@@ -25,7 +25,7 @@ var Adder = React.createClass({
 						Note how we reference the number of clicks using this.props.clicks
 						This is because any parameter passed by a parent becomes a "static" prop.
 					*/}
-					<h1>{this.state.number + this.props.click}</h1>
+					<h1>{this.state.number + this.props.clicks}</h1>
 
 				</div>
 			</div>
